@@ -1,5 +1,12 @@
 # Multi-Modal Chatbot Powered by LangChain Agents, OpenAI's Function Calling, and Streamlit
 
+## Solution
+
+The multi-modal chatbot I crafted is backed by an agent that uses three tools:
+- REST Countries API Chain: enables retrieving information on countries, invoking [Rest countries API](https://restcountries.com/)
+- DALL·E 3 Image Generator: Generates an image of countries based on the country name
+- Google Search Tool: Useful for fetching information from the web
+
 
 ## Getting Started
 Clone the repository, set up the virtual environment, and install the required packages
