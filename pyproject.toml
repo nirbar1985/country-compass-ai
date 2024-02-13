@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "country-compass-ai"
+version = "1.0.0"
+description = "Multi-modal AI chatbot for country information"
+authors = ["Nir Bar"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "*"
+streamlit = "*"
+langchain = "*"
+tiktoken = "*"
+google-search-results = "*"
+langchain-openai = "^0.0.5"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
